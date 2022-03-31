@@ -58,8 +58,8 @@ p {
 .about {
   display: flex;
 }
-.border-left {
-  border-left: 5px solid var(--blue1);
+.border-line {
+  border-left: 5px solid var(--red1);
 }
 
 /* second flexbox */
