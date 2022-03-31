@@ -88,6 +88,9 @@ p {
   flex: 1 0 40%;
   /* max-width:60%; */
 }
+.example h4 {
+  font-size: 24px;
+}
 
 /* make first work larger than others */
 #work-one {
