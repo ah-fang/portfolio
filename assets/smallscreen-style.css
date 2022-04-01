@@ -45,12 +45,18 @@ p {
 
 
 /* first flexbox - removed for mobile */
+
 .side-title {
   padding: 10px;
   min-width: 100px;
   text-align: center;
   border-bottom: 5px solid var(--red1);
-  margin: 10%
+  margin: 10%;
+}
+.profile {
+  border-radius: 50%;
+  max-width: 200px;
+  margin-left: 10%
 }
 
 /* second flexbox - removed for mobile*/

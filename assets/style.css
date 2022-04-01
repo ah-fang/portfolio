@@ -58,8 +58,16 @@ p {
 .about {
   display: flex;
 }
+
+.profile {
+  border-radius: 50%;
+  max-width: 300px;
+  padding: 0 0 0 20px;
+}
+
 .border-line {
   border-left: 5px solid var(--red1);
+  display: flex;
 }
 
 /* second flexbox */
