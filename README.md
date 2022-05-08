@@ -1,2 +1,8 @@
-# ucb-challenge2
-The second challenge for UCB Bootcamp
+# UCB Challenge #2
+
+## Description
+My portfolio website.<br>
+Live site: https://ah-fang.github.io/ucb-challenge2/
+
+## Screenshot 
+![screenshot](./assets/main-screenshot.png)
