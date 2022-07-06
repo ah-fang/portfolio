@@ -94,18 +94,16 @@ p {
   margin: 20px;
   border: 5px solid var(--red1);
   flex: 1 0 40%;
-  /* max-width:60%; */
+  max-width:60%;
 }
 .example h4 {
   font-size: 24px;
 }
 
-/* make first work larger than others */
 #work-one {
   flex: 1 0 80%;
 }
 
-/* Bottom left text */
 .bottom-left {
   position: absolute;
   bottom: 0px;
@@ -119,7 +117,6 @@ p {
   display: flex;
 }
 
-/* pseudoclasses */
 .example:hover{
   background-color: var(--blue2);
 }
@@ -127,4 +124,3 @@ p {
   opacity: 0.5;
   transition-duration: 300ms;
 }
-/* media queries */
