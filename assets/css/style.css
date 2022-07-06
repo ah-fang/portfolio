@@ -70,11 +70,6 @@ p {
   display: flex;
 }
 
-/* second flexbox */
-.works {
-  display: flex;
-}
-
 .work-box {
   position: relative;
   text-align: center;
