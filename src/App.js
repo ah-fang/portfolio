@@ -18,6 +18,17 @@ function App() {
           Learn React
         </a>
       </header>
+      <main>
+        {/* section for content */}
+      </main>
+      <footer>
+        {/* text or icon links to the developer’s GitHub and 
+        LinkedIn profiles, and their profile on a third 
+        platform (Stack Overflow, Twitter)  */}
+        <link href='https://github.com/ah-fang'>GitHub</link>
+        <link href='https://www.linkedin.com/in/andrea-hughes-3b1b94177/'>LinkedIn</link>
+        <link href='https://twitter.com/AndreaH85273363'>Twitter</link>
+      </footer>
     </div>
   );
 }
