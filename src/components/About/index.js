@@ -3,6 +3,8 @@ import Style from './About.module.scss';
 import Terminal from "./Terminal";
 import { Box } from "@mui/material";
 import { info } from "../../info/Info";
+import classNames from 'classnames';
+import me from '../../img/self.png';
 
 export default function About() {
     const firstName = info.firstName.toLowerCase()
@@ -36,7 +38,10 @@ export default function About() {
     }
 
     return (
-        <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
+        <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>         
+            <Box className={classNames(Style.avatar, Style.shadowed)} alt={'profile picture'} style={{background: info.gradient}} component={'img'} src={me} width={{xs: '35vh', md: '40vh'}}
+              height={{xs: '35vh', md: '40vh'}}
+              borderRadius={'50%'} p={'0.75rem'} mb={{xs: '1rem', sm: 0}} mr={{xs: 0, md: '2rem'}}/>
             <Box>
                 <h1>Hi, I'm <span>{info.firstName + ' ' + info.lastName}</span>
                 </h1>

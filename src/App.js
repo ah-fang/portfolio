@@ -10,10 +10,8 @@ function App() {
          <BrowserRouter>
             <Main/>
          </BrowserRouter>
-
       </div>
    );
 }
-
 
 export default App;
