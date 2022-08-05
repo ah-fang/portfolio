@@ -6,6 +6,7 @@ import About from "./About";
 import Portfolio from "./Portfolio";
 import Contact from './Contact';
 import Resume from './Resume';
+import Footer from './Footer';
 import { Route, Routes } from "react-router-dom";
 import { Box, Grid } from "@mui/material";
 
@@ -32,8 +33,8 @@ export default function Main() {
                   <Route exact path={'/resume'} element={<Resume />}/>
                </Routes>
             </Grid>
-         </Grid>
+         </Grid>     
+         <Footer />
       </Box>
    )
 }
-

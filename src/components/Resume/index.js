@@ -3,7 +3,6 @@ import classNames from 'classnames';
 
 export default function Resume () {
     const icon = "fa fa-arrow-circle-o-down";
-
     return (
         <>
             <a href="dummyfile.txt" download='dummyfile'>

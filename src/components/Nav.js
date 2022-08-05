@@ -6,11 +6,11 @@ import { Box } from "@mui/material";
 import { info } from "../info/Info";
 
 const links = [
-    {
-        name: 'Home',
-        to: '/',
-        active: 'home'
-    },
+    // {
+    //     name: 'Home',
+    //     to: '/',
+    //     active: 'home'
+    // },
     {
         name: 'About Me',
         to: '/about',
@@ -46,7 +46,7 @@ export default function Nav({darkMode, handleClick}) {
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
                          sx={{borderImageSource: info.gradient}}>
                         <Link to={link.to} onClick={() => setActive(link.active)}>
-                            {!link.type && <p style={{paddingBottom: '0.5rem'}}>{link.name}</p>}
+                            {!link.type && <p style={{ paddingBottom: '0.5rem' }}>{link.name}</p>}
                             {link.type && <h1>{link.name}</h1>}
                         </Link>
                     </Box>
