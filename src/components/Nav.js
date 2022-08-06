@@ -3,7 +3,7 @@ import Style from './Nav.module.scss';
 import Toggler from "./Home/Toggler";
 import { Link, useLocation } from "react-router-dom";
 import { Box } from "@mui/material";
-import { info } from "../info/Info";
+import { data } from "../data/Data";
 
 const links = [
     // {
@@ -44,7 +44,7 @@ export default function Nav({darkMode, handleClick}) {
                  textTransform={'lowercase'} fontSize={'1rem'}>
                 {links.map((link, index) => (
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
-                         sx={{borderImageSource: info.gradient}}>
+                         sx={{borderImageSource: data.gradient}}>
                         <Link to={link.to} onClick={() => setActive(link.active)}>
                             {!link.type && <p style={{ paddingBottom: '0.5rem' }}>{link.name}</p>}
                             {link.type && <h1>{link.name}</h1>}

@@ -21,6 +21,40 @@ ul {
     list-style-type: none;
 }
 
+#lightmode {
+    color: white;
+}
+  
+#darkmode {
+    color: #1f1f1f;
+}
+
+#contact-form {
+    margin: 5% 20%;
+    width: 50vw;
+}
+
+#contact-form input{
+    width: 50vw;
+    height: 5vh;
+    font-size: 24px;
+}
+
+button {
+    font-size: 24px;
+    padding: .5rem;
+    margin-top: 1rem;
+}
+
+.download-box {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    font-size: 24px;
+}
+
 .footer {
     width: 100%;
     font-size: 16px;

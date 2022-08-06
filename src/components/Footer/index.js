@@ -3,7 +3,7 @@ import React from 'react';
 export default function Footer () {
     return (
         <footer className='footer'>
-            <div class='link-box'>
+            <div className='link-box'>
                 <a href='https://github.com/ah-fang'>
                     <i className='fa fa-github fa-lg footer-icon'></i>
                 </a>
