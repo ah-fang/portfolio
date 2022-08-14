@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
+import { HashRouter, Route, Routes } from "react-router-dom";
+import { Box, Grid } from "@mui/material";
 import './App.module.scss';
 import './App.css';
-// import Main from "./components/Main";
-import {BrowserRouter} from "react-router-dom";
-
 import Style from './App.module.scss'
 import Nav from "./components/Nav";
 import Home from "./components/Home";
@@ -12,8 +11,6 @@ import Portfolio from "./components/Portfolio";
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
-import { Route, Routes } from "react-router-dom";
-import { Box, Grid } from "@mui/material";
 
 function App() {
    let [darkMode, setDarkMode] = useState(false);
@@ -23,7 +20,7 @@ function App() {
    }
    return (
       <div>
-         <BrowserRouter>
+         <HashRouter>
          <Box className={darkMode ? Style.dark : Style.light}>
          <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
                justifyContent={'space-between'}>
@@ -42,7 +39,7 @@ function App() {
          </Grid>     
          <Footer />
       </Box>
-         </BrowserRouter>
+         </HashRouter>
       </div>
    );
 }
