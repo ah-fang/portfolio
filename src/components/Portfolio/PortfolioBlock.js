@@ -10,11 +10,11 @@ function PortfolioBlock(props) {
          <h1 style={{fontSize: '2rem'}}>{title}</h1>
          <Box className={'portfolio'} display={'flex'} flexDirection={'column'} gap={'0.5rem'}
               alignItems={'center'} fontSize={'1.5rem'} py={'2rem'}>
-            <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
-               <IconLink link={live} title={'Live Demo'} icon={'fa fa-safari'}/>
+            <Box p={1} border={'2px solid black'} borderRadius={'20px'}>
+               <IconLink link={live} title={'Live Site'} icon={'fa fa-safari'}/>
             </Box>
-            <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
-               <IconLink link={source} title={'Source Code'} icon={'fa fa-code'}/>
+            <Box p={1} border={'2px solid black'} borderRadius={'20px'}>
+               <IconLink link={source} title={'GitHub Repo'} icon={'fa fa-code'}/>
             </Box>
          </Box>
       </Box>

@@ -6,11 +6,6 @@ import { Box } from "@mui/material";
 import { data } from "../data/Data";
 
 const links = [
-    // {
-    //     name: 'Home',
-    //     to: '/',
-    //     active: 'home'
-    // },
     {
         name: 'About Me',
         to: '/about',

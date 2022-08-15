@@ -21,24 +21,24 @@ function App() {
    return (
       <div>
          <HashRouter>
-         <Box className={darkMode ? Style.dark : Style.light}>
-         <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
-               justifyContent={'space-between'}>
-            <Grid item>
-               <Nav darkMode={darkMode} handleClick={handleClick}/>
-            </Grid>
-            <Grid item flexGrow={1}>
-               <Routes>
-                  <Route exact path={'/'} element={<Home/>}/>
-                  <Route exact path={'/about'} element={<About/>}/>
-                  <Route exact path={'/portfolio'} element={<Portfolio/>}/>
-                  <Route exact path={'/contact'} element={<Contact/>}/>
-                  <Route exact path={'/resume'} element={<Resume />}/>
-               </Routes>
-            </Grid>
-         </Grid>     
-         <Footer />
-      </Box>
+            <Box className={darkMode ? Style.dark : Style.light}>
+               <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
+                     justifyContent={'space-between'}>
+                  <Grid item>
+                     <Nav darkMode={darkMode} handleClick={handleClick}/>
+                  </Grid>
+                  <Grid item flexGrow={1}>
+                     <Routes>
+                        <Route exact path={'/'} element={<Home/>}/>
+                        <Route exact path={'/about'} element={<About/>}/>
+                        <Route exact path={'/portfolio'} element={<Portfolio/>}/>
+                        <Route exact path={'/contact'} element={<Contact/>}/>
+                        <Route exact path={'/resume'} element={<Resume />}/>
+                     </Routes>
+                  </Grid>
+               </Grid>     
+               <Footer />
+            </Box>
          </HashRouter>
       </div>
    );
