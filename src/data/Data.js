@@ -1,10 +1,10 @@
 import profile from "../img/profile-photo.png";
 import doodle from "../img/doodly-example-polaroid.png";
-import robots from "../img/robot-gladiators-polaroid.png";
 import bbs from "../img/bands&brewskis.png";
 import budget from '../img/budget-tracker.png';
 import pwGen from "../img/password-generator-polaroid.png";
 import runner from '../img/run-buddy-polaroid.png';
+import sphere from '../img/sorcerers_sphere.png';
 
 export let colors = ["rgb(91,206,62)", "rgb(249,73,9)"];
 
@@ -42,10 +42,10 @@ export const data = {
             image: budget
         },
         {
-            title: "Robot Gladiators",
-            live: "https://ah-fang.github.io/robot-gladiators/",
-            source: "https://github.com/ah-fang/robot-gladiators",
-            image: robots
+            title: "Sorcerer's Sphere",
+            live: "http://sorcerers-sphere.herokuapp.com/",
+            source: "https://github.com/Lemming97/Project_3",
+            image: sphere
         },
         {
             title: "Password Generator",
