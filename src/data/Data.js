@@ -15,11 +15,11 @@ export const data = {
     selfPortrait: profile, 
     gradient: `-webkit-linear-gradient(135deg, ${colors})`,
     baseColor: colors[0],
-    bio: "Hi! From sunny San Diego, I'm coding with a vengeance. Fresh off UC Berkeley boot camp, I'm up to date on the latest technologies and ready to make something incredible.",
+    bio: "Hi! From sunny San Diego, I'm coding with a vengeance. With an interest in biotechnology, I took up programming, building my full-stack skills at UC Berkeley Extension. Since then, I've been working hard to be up-to-date on the latest technologies and I'm ready to make something incredible.",
     skills:
         {
-            proficientWith: ['html5', 'ccs3', 'javascript', 'react', 'git', 'github', 'react'],
-            exposedTo: ['jQuery', 'python']
+            proficientWith: ['html5', 'css3', 'javascript', 'python', 'django', 'react'],
+            exposedTo: ['jQuery', ]
         }
     ,
     projects: [ 
